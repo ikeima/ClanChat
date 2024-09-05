@@ -1,0 +1,6 @@
+@ClanChat.Server_HostAddress = http://localhost:5173
+
+GET {{ClanChat.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
