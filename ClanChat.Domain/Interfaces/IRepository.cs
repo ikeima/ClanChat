@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClanChat.Domain.Interfaces
 {
-    interface IRepository<T> : IDisposable 
+    public interface IRepository<T> : IDisposable 
         where T : class
     {
-
+        Task<T> GetById(Guid id);
+        Task<IEnumerable<T>> GetAll();
+        Task<T> Create(T entity);
+        Task<T> Update(T entity);
+        Task<T> Delete(Guid id);
     }
 }

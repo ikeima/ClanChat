@@ -1,8 +1,8 @@
-﻿using ClanChat.Domain.Models;
+﻿using ClanChat.DAL.Repositories;
+using ClanChat.Domain.Models;
 
-public class User
+public class User : BaseEntity
 {
-    public int Id { get; set; }
     public string Name { get; set; }
     public int ClanId { get; set; }
     public Clan Clan { get; set; }
