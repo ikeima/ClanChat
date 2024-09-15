@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClanChat.DAL.Repositories
 {
-    internal class ClanRepository : BaseRepository<Clan>
+    public class ClanRepository : BaseRepository<Clan>
     {
         private readonly ApplicationDbContext _db;
         public ClanRepository(ApplicationDbContext db) : base(db)
