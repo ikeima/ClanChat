@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClanChat.Application\ClanChat.Application.csproj" />
     <ProjectReference Include="..\ClanChat.DAL\ClanChat.DAL.csproj" />
   </ItemGroup>
 
