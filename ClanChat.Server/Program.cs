@@ -1,8 +1,5 @@
 using ClanChat.DAL.Data;
 using ClanChat.DAL.DiExtension;
-using ClanChat.DAL.Repositories;
-using ClanChat.Domain.Interfaces;
-using ClanChat.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

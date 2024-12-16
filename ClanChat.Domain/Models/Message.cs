@@ -1,8 +1,8 @@
-﻿using ClanChat.DAL.Repositories;
-using ClanChat.Domain.Models;
+﻿using ClanChat.Domain.Models;
 
-public class Message : BaseEntity
+public class Message
 {
+    public Guid Id { get; set; }
     public string Text { get; set; }
     public DateTime Timestamp { get; set; }
     public Guid UserId { get; set; }
