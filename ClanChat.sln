@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClanChat.API", "ClanChat.Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClanChat.Domain", "ClanChat.Domain\ClanChat.Domain.csproj", "{10CCCCD6-3015-4847-8BF4-94A9D233E547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClanChat.Application", "ClanChat.Application\ClanChat.Application.csproj", "{F23FCA8F-2B34-4B0D-9D20-2E773D67F0B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClanChat.BL", "ClanChat.Application\ClanChat.BL.csproj", "{F23FCA8F-2B34-4B0D-9D20-2E773D67F0B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClanChat.DAL", "ClanChat.DAL\ClanChat.DAL.csproj", "{06C4B143-63C3-45AD-A3FE-2AEF9BBDE9C4}"
 EndProject
