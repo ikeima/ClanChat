@@ -1,6 +1,12 @@
-﻿namespace ClanChat.Application.Services.ClanService
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClanChat.Application.Services.ChatService
 {
-    public class ClanService : IClanService
+    class ClanService : IClanService
     {
     }
 }
